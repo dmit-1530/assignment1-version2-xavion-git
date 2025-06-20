@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Additional Meta Information -->
-    <meta name="Xavion Dean" content="">
+    <meta name="Xavion Dean" content="Assignment1">
     <meta name="description" content="">
 
-    <title>Document</title>
+    <title>Études</title>
 
     <!-- Stylesheets -->
      	<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -16,34 +16,128 @@
 </head>
 <body>
     <header>
-        <h1>Études</h1>
-        <img src="img/ix.png" alt="Études logo">
+        <div class="logo">
+            <h1>Études</h1>
+            <img src="img/ix.png" alt="Études logo">
+        </div>
 
         <nav>
             <ul>
-                <li href="index.html">Home</li>
-                <li href="gallery.html">Gallery</li>
-                <li>Services</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">Services</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>It all starts with our commitment to sustainability.</h2>
-            <p>At Etudes, our journey toward architectural excellence begins with a firm commitment to innovation and sustainability. We believe that great design not only enhances aesthetics but also integrates seamlessly with the environment and promotes responsible living. Join us in shaping spaces that not only  inspire but also contribute positively to the world around us.</p>
-            <a href="#" class="btn">About Us &#10095;</a>
+        <section class="flex-container">
+            <div class="flex-body">
+                <h2>It all starts with our commitment to sustainability.</h2>
+                <p>At Etudes, our journey toward architectural excellence begins with a firm commitment to innovation and sustainability. We believe that great design not only enhances aesthetics but also integrates seamlessly with the environment and promotes responsible living. Join us in shaping spaces that not only  inspire but also contribute positively to the world around us.</p>
+                <a href="#" class="btn">About Us &#10095;</a>
+            </div>
             
-            <picture>
-				<source media="(min-width: 960px)" srcset="img/vi.webp.webp">
-				<source media="(min-width: 640px)" srcset="img/vi.webp.webp">		
-                <img src="img/vi.webp" alt="">
-            </picture>
+            <div class="flex-pic">
+                <picture>
+                                <source media="(min-width: 960px)" srcset="img/vi.webp.webp">
+                                <source media="(min-width: 640px)" srcset="img/vi.webp.webp">
+                                <img src="img/vi.webp" alt="Upwards building picture">
+                </picture>
+                
+            </div>
+        </section>
+        <section class="flex-container">
+            <div>
+                <h2>*
+                    An unparalleled passion for creating spaces.</h2>
+                <p>At Etudes, we approach every project with creativity, expertise, and a  commitment to excellence. Whether residential or commercial, we are  dedicated to bringing your architectural aspirations to fruition,  exceeding expectations every step of the way. Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers.</p>
+            </div>
+            
+            <div>
+                    <p><strong>* Customized Designs</strong> From conceptualization to execution, we specialize in creating bespoke  architectural solutions that reflect your unique vision and lifestyle  preferences.</p>
+                    <p><strong>* Interior Harmony</strong> Seamlessly blending interior aesthetics with architectural design, we create spaces that not only look stunning but also function harmoniously with your lifestyle and needs.</p>
+                    <p><strong>* Innovative Solutions</strong> Leveraging the latest advancements in technology and materials, we bring  innovative solutions to every project, enhancing functionality,  durability, and aesthetic appeal.</p>
+                    <p><strong>* Sustainable Practices</strong> Our commitment to eco-conscious design encompasses the integration of renewable materials, energy-efficient systems, and sustainable building practices for a greener future.</p>
+                    <p><strong>* Community Engagement</strong> Beyond structures, we design spaces that foster community interaction, promote inclusivity, and contribute positively to the social fabric of neighborhoods and cities.</p>
+                    <p><strong>* Project Management</strong> With a keen eye for detail and efficient coordination, we oversee every aspect of your project, ensuring timely delivery and impeccable quality from start to finish.</p>
+            </div>
+        </section>
+        <section>
+            <h2>You saved us thousands of hours of work and unlocked insights we never thought possible.</h2>
+            <p>Annie Setter</p>
+            <p>CEO, Greyprint</p>
         </section>
 
+        <section>
+            <h3>* 
+                Your world, redesigned.</h3>
+                <p>Our firm, rooted in Canada's rich heritage of design and craftsmanship, offers a diverse range of services tailored to both residential and  commercial projects. Explore how our expertise can transform your vision into extraordinary spaces that inspire, elevate, and endure.</p>
 
+            <article>
+                <h3>*
+Residential Architecture</h3>
+                <ul>
+                    <li><strong>Custom Home Design:</strong> Crafting bespoke homes that reflect your style, preferences, and functional requirements.</li>
+                    <li><strong>Home Extensions:</strong> Seamlessly blending new additions with the existing structure, maximizing space and functionality.</li>
+                    <li><strong>Sustainable Design:</strong> Integrating eco-friendly practices and technologies to create energy-efficient, environmentally conscious homes.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>*
+Commercial Architecture</h3>
+                <ul>
+                    <li><strong>Mixed-Use Developments:</strong> Integrating diverse functionalities seamlessly within a single complex.</li>
+                    <li><strong>Community & Public Spaces:</strong> Designing public facilities and spaces that enrich communities and promote social interaction.</li>
+                    <li><strong>Adaptive Reuse:</strong> Transforming existing structures into vibrant, functional spaces, preserving heritage and sustainability.</li>
+                </ul>
+            </article>
+            
+                <div class="inner-container">
+                    <p>Join 900+ subscribers</p>
+                    <p>Stay in the loop with everything you need to know.</p>
+                    <a href="#" class="btn">Sign up &#10095;</a>
+                </div>
+            
+        </section>
     </main>
-    <footer>
+<footer>
+    <div class="footer-container">
+        <div class="footer-brand">
+            <h1>Études</h1>
+            <p>Merging creativity and functionality to redefine architectural excellence.</p>
+        </div>
 
-    </footer>
+        <div class="footer-links">
+            <div class="links-column">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="links-column">
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter / X</a></li>
+                </ul>
+            </div>
+            <div class="links-column">
+                <h3>Privacy</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-disclaimer">
+            <p>This website is an academic exercise; its contents are entirely fictitious. All copy was generated by ChatGPT in lieu of using lorem ipsum placeholder text.</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
