@@ -3,6 +3,8 @@
     --blue-grey-100: #CFD8DC;
     --blue-grey-200: #B0BEC5;
     --blue-grey-900: #263238;
+    --black: #111111;
+    --White: #FFFFFF;
 }
 
 body {
@@ -11,8 +13,108 @@ body {
 }
 
 header, footer {
-    background-color: var(--blue-grey-50);
-    color: #fff;
-    padding: 2rem 4rem;   
+    background-color: var(--black);
+    color: #FFFFFF;
+    padding: 3rem 2.8125rem;   
 }
 
+header :nth-child(2),
+footer img{
+    width: 91px;
+    height: 58px;
+}
+
+header h1,
+footer h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+  nav ul 
+  {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 1.8rem;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: var(--White)
+}
+
+.container {
+    background-color: var(--blue-grey-50);
+}
+
+.flex-body {
+    padding-top: 19px;
+}
+
+.flex-body h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-shadow: 1px 0px 0px 5px;
+    font-size: 35px;
+    padding: 1.625rem 1.6875rem 0rem 1.6875rem;
+}
+
+.flex-body p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 32px 36px 32px;
+}
+
+.btn {
+    background-color: #000000;         
+    color: #ffffff;   
+    border-radius: 6px;                 
+    border: none;                    
+    padding: 16px 18px;               
+    font-size: 16px;   
+    text-decoration: none;               
+}
+
+.flex-pic {
+    padding: 48px 32px 64px 32px;
+    border-radius: 8px;
+}
+
+.flex-pic :first-child{
+    border-radius: 8px;
+}
+
+.flex-container h2{
+    padding: 64px 32px 32px 32px
+}
+
+.info h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+.info h2::before{
+    content: "*"; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px; 
+    display: flex;
+    justify-content: center;
+}
+
+.info p {
+    margin: 0rem 2rem;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
