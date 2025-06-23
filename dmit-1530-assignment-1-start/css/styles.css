@@ -5,12 +5,16 @@
     --blue-grey-900: #263238;
     --black: #111111;
     --White: #FFFFFF;
+    --blue: #78909C;
 }
 
 body {
     color: #000;
-    text-align: center; 
+    text-align: center;
+    max-width: 24.375rem;
 }
+
+
 
 header, footer {
     background-color: var(--black);
@@ -110,11 +114,104 @@ header nav ul li a{
 }
 
 .info p {
-    margin: 0rem 2rem;
+    margin: 0rem 2rem 3rem;
     flex-wrap: wrap;
 }
 
-.flex {
+.small-sec {
     display: flex;
     flex-wrap: wrap;
+    margin: 0rem 2rem;
 }
+
+.small-sec h3:before {
+    content: "*"; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px; 
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    background-color: var(--blue);
+    margin-top: 28.1px;
+}
+
+.hero p {
+    color: var(--White);
+}
+
+.hero :nth-child(3) {
+    padding-bottom: 64px;
+    margin-bottom: -16px;
+}
+
+.hero h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0px 32px 48px 32px;
+    color: var(--White);
+    padding-top: 64px;
+}
+
+.art {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CFD8DC;
+}
+
+.title h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: lighter;
+    
+    margin: 64px 0px 0px 0px;
+}
+.title h3::before {
+    content: "*"; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px; 
+    display: flex;
+    justify-content: center;
+}
+
+.title p {
+    margin-top: 24px;
+    padding: 0px 32px 0px 32px;
+}
+
+.outter-container {
+     background-color: var(--blue-grey-900);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 64px 32px;
+}
+
+.inner-container {
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 326px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subscriber-count{
+    font-size: 40px; 
+    font-weight: 200;
+    padding-top:64px ;
+}
+
+.subscription-heading {
+    font-size: 24px;
+    margin: 16px 0px 32px 0px;
+    font-size: 20px;
+}
+
+.inner-container .btn{
+    margin: 0px 100px 64px 101px;
+}
+
