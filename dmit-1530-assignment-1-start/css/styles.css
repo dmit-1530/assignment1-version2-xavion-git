@@ -14,7 +14,7 @@ body {
     min-width: 24.375rem;
     max-width: 90rem;
 }
-
+/*Page 1*/
 /*Header and Footer Styling */
 
 header, footer {
@@ -65,15 +65,18 @@ header nav ul li a{
 
 /*Content styling*/
 
-.container {
+.container,
+.article-container {
     background-color: var(--blue-grey-50);
 }
 
-.flex-body {
+.flex-body,
+.article-header {
     padding-top: 19px;
 }
 
-.flex-body h2 {
+.flex-body h2,
+.article-header h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     text-shadow: 1px 0px 0px 5px;
@@ -81,7 +84,8 @@ header nav ul li a{
     padding: 1.625rem 1.6875rem 0rem 1.6875rem;
 }
 
-.flex-body p{
+.flex-body p,
+.article-container p{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px 32px 36px 32px;
 }
@@ -101,7 +105,9 @@ header nav ul li a{
     border-radius: 8px;
 }
 
-.flex-pic :first-child{
+
+.flex-pic1 {
+    padding: 48px 32px 16px 32px;
     border-radius: 8px;
 }
 
@@ -244,7 +250,7 @@ article ul {
     padding: 16px;
     border-radius: 8px;
     text-align: center;
-    max-width: 326px;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -305,10 +311,98 @@ footer p {
     flex-wrap: wrap;
 }
 
+/*Page 2*/
+
+.section-text,
+.section-text1, 
+.section-title{
+    text-align: start;
+}
+.section-title {
+    padding-left: 32px;
+}
+
+aside {
+    padding: 0px 32px 0px 32px;
+    text-align: start;
+}
+
+.section-text1 {
+    padding-bottom: 64px;
+}
+
+
+
 @media screen and (min-width: 768px) {
     .logo {
         padding-right:100px;
     }
-   
+   .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    }
+    .small-sec {
+    display: flex;
+    flex: 1;
+    min-width: 300px;
+    text-align: start;
+    }
+    .small-sec h3::before{
+        justify-content: flex-start;
+    }
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .art2 {
+        padding-right: 369px;
+        margin-bottom: 0px;
+    }
+    .art3 {
+        padding-left: 369px;
+        margin-bottom: 0px;
+    }
+    .outter-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inner-container {
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    footer .logo p {
+        max-width: 310px;
+    }
+    footer .logo {
+        padding-left: 0px;
+        
+    }
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column ;
+        gap: 30px ;
+    }
+    .article-container {
+     max-width: 100%;
+                margin: 0;
+                border-radius: 0;
+            }
+            
+            .article-header,
+            .article-content {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+}
 
+@media screen and(min-width:1000px) {
+   header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+   }
 }
