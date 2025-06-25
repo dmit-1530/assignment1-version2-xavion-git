@@ -338,6 +338,32 @@ aside {
     padding-bottom: 64px;
 }
 
+.motive{
+    padding: 28px 32px 64px; 
+}
+
+.motive h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 100;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hub {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--blue);
+    color:white;
+    text-align: start;
+    padding: 64px 32px;
+}
+.hub h2 {
+    font-size: 35px;
+    font-weight: 100;
+}
+.cultural {
+    font-weight: 100;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -386,7 +412,7 @@ aside {
     footer .logo {
         padding-left: 0px;
         
-    }
+    } 
     .footer-container {
         display: flex;
         flex-wrap: wrap;
@@ -394,16 +420,15 @@ aside {
         gap: 30px ;
     }
     .article-container {
-     max-width: 100%;
-                margin: 0;
-                border-radius: 0;
-            }
-            
-            .article-header,
-            .article-content {
-                padding-left: 20px;
-                padding-right: 20px;
-            }
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }   
+    .article-header,
+    .article-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media screen and(min-width:1440px) {
