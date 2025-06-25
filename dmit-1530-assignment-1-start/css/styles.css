@@ -322,6 +322,13 @@ footer p {
     padding-left: 32px;
 }
 
+.article-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 45px;
+}
+
 aside {
     padding: 0px 32px 0px 32px;
     text-align: start;
@@ -399,10 +406,10 @@ aside {
             }
 }
 
-@media screen and(min-width:1000px) {
+@media screen and(min-width:1440px) {
    header nav ul {
     display: flex;
     flex-wrap: wrap;
-
    }
+   
 }
