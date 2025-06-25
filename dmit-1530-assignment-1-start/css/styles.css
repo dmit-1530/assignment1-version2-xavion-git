@@ -363,6 +363,29 @@ aside {
 .cultural {
     font-weight: 100;
 }
+.features{
+    background-color: var(--blue-grey-900);
+    padding: 64px 32px;
+    color: white;
+     text-align: start;
+}
+.features h3 {
+    margin: 0px;
+    margin-bottom: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 100;
+}
+.list {
+    padding-top: 48px;
+}
+
+.list-text {
+    margin-bottom: 16px;
+}
+.features p{
+    padding-top:253px; 
+}
 
 
 
@@ -429,6 +452,32 @@ aside {
         padding-left: 20px;
         padding-right: 20px;
     }
+    .hub {
+        display: flex;
+        flex-wrap: wrap;
+          justify-content:space-between ;
+    }
+
+    .hub h2{
+        padding-left: 120px;
+    }
+    .cultural{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+        justify-content:space-between ;
+        max-width: 336px;
+    }
+    .feat {
+        display: flex;
+        flex-wrap: wrap;
+        gap:24px;
+    }
+    .list {
+        max-width: 336px;
+    }
+
+
 }
 
 @media screen and(min-width:1440px) {
