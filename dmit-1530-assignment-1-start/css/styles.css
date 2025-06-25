@@ -79,7 +79,7 @@ header nav ul li a{
 .article-header h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
-    text-shadow: 1px 0 5px rgba(0, 0, 0, 0.5); /* Fixed text-shadow */
+    text-shadow: 1px 0 5px rgba(0, 0, 0, 0.5);
     font-size: 35px;
     padding: 1.625rem 1.6875rem 0 1.6875rem;
 }
@@ -480,10 +480,9 @@ aside {
 
 }
 
-@media screen and(min-width:1440px) {
-   header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-   }
-   
+@media screen and (min-width: 1440px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
